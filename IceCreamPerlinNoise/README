@@ -1,0 +1,6 @@
+Depiction of an ice cream cone using Perlin Noise. 
+
+For this assignment, we were given the following constraints:
+
+1. Only use black (0) and white (255) colors
+2. Only use the rect(), triangle(), and ellipse() functions
