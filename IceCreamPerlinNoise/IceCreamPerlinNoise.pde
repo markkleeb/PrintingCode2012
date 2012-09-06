@@ -1,19 +1,9 @@
-/*  Properties
-_________________________________________________________________ */
+
 
 PGraphics canvas;
 int canvas_width = 2480;
 int canvas_height = 3508;
 
-float ratioWidth = 1;
-float ratioHeight = 1;
-float ratio = 1;
-
-
-float xoff = 0.0;
-
-/*  Setup
-_________________________________________________________________ */
 
 void setup()
 { 
@@ -22,15 +12,13 @@ void setup()
   
   canvas = createGraphics(canvas_width, canvas_height, P2D);
   
-  calculateResizeRatio();
-  
   canvas.beginDraw();
     canvas.background(255);
     canvas.noStroke();
         for(int i = 0; i < 75; i++){
     canvas.pushMatrix();
     canvas.translate(canvas.width/2+noise(i)*random(-350,350), (canvas.height/2-500)+noise(i)*random(-350,350));
-    println(noise(i*1000));
+    println(noise(i));
    canvas.stroke(0);
     canvas.strokeWeight(10);
     canvas.fill(255,255,255,0);
@@ -40,22 +28,10 @@ void setup()
         }
   canvas.endDraw();
   
-  float resizedWidth = (float) canvas.width * ratio;
-  float resizedHeight = (float) canvas.height * ratio;
   
-  image(canvas, (width / 2) - (resizedWidth / 2), (height / 2) - (resizedHeight / 2), resizedWidth, resizedHeight);
+  image(canvas, 0, 0, canvas.width*0.2, canvas.height*0.2);
   
   saveFrame("icecream.png");
 }
 
-/*  Calculate resizing
-_________________________________________________________________ */
 
-void calculateResizeRatio()
-{
-  ratioWidth = (float) width / (float) canvas.width;
-  ratioHeight = (float) height / (float) canvas.height;
-  
-  if(ratioWidth < ratioHeight)  ratio = ratioWidth;
-  else                          ratio = ratioHeight;
-}
