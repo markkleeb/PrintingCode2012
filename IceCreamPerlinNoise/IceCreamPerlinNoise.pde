@@ -13,6 +13,7 @@ void setup()
   canvas = createGraphics(canvas_width, canvas_height, P2D);
   
   canvas.beginDraw();
+  canvas.smooth();
     canvas.background(255);
     canvas.noStroke();
         for(int i = 0; i < 75; i++){
@@ -31,7 +32,7 @@ void setup()
   
   image(canvas, 0, 0, canvas.width*0.2, canvas.height*0.2);
   
-  saveFrame("icecream.png");
+  canvas.save("icecream.png");
 }
 
 
