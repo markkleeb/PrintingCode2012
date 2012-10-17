@@ -1,0 +1,267 @@
+TruttEtraTest
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cProcessPCH++ /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.pth /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug normal i386
+cPhaseScriptExecution "Run Script" /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework
+cTouch /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004F1F2BA400000000000000EE
+t1327442852
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004E20939E00000000000005FF
+t1310757790
+s1535
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx/GLUT.framework
+c00000000505B5FA500000000000000CC
+t1348165541
+s204
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c000000004F9F65C40000000000092A98
+t1335846340
+s600728
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/ruttEtraTestDebug.LinkFileList
+c00000000507DD50A00000000000000F9
+t1350423818
+s249
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.o
+t2
+s0
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c00000000507DD50B0000000000000114
+t1350423819
+s276
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp
+c00000000507DD4E000000000000001A5
+t1350423776
+s421
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp
+c00000000507DD4E000000000000015F7
+t1350423776
+s5623
+
+N/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.h
+c00000000507DD4E00000000000000569
+t1350423776
+s1385
+
+N/Developer/of_0071/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004F9F65C40000000000000701
+t1335846340
+s1793
+
+N/Developer/of_0071/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c0000000050648E510000000001281C38
+t1348767313
+s19405880
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c000000004FE208B1000000000001BA10
+t1340213425
+s113168
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004F9D04B700000000021F3CE0
+t1335690423
+s35601632
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004E8FDD0E000000000000B750
+t1318051086
+s46928
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F4DCF7D000000000039E5E0
+t1330499453
+s3794400
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E8FDD0F0000000000006530
+t1318051087
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E8FDD0F0000000000006560
+t1318051087
+s25952
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F4DCF7D00000000001195D0
+t1330499453
+s1152464
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004F9D0518000000000060FA80
+t1335690520
+s6355584
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004F4DCF7E000000000000B870
+t1330499454
+s47216
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004F9D06460000000000120F70
+t1335690822
+s1183600
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004F9D04D2000000000002E350
+t1335690450
+s189264
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004F9D069F000000000032B7E0
+t1335690911
+s3323872
+
+N/var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.pth
+t2
+s0
+
+NopenFrameworks-Info.plist
+c00000000507DD4E00000000000000277
+t1350423776
+s631
+
+CBuild AST from /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp
+r0
+
+CBuild AST from /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesda1be48a0c2eb641^5513208b0c2eb641^---0#1#0#--18"Check dependencies36"3551A90D-4A4A-487F-A6EE-6CC877B0B691-
+
+CCompileC build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372116621.887175
+e372116623.563498
+r1
+xCompileC
+xbuild/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.o
+x/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused when '-c' is present
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp0d6ee38d0c2eb641^0341908f0c2eb641^-70"clang: warning: -lpthread: 'linker' input unused when '-c' is present1(32%IDEActivityLogContextInfoMessage2@69"Clang: warning: -lpthread: 'linker' input unused when '-c' is present-372116621#0#70#-0#--21"Clang LLVM 1.0 Notice--0#0#0#-19%DVTDocumentLocation3@74"file://localhost/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp0000000000000000^2574"CompileC build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -msse3 -mssse3 -Wno-sign-conversion -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/ruttEtraTestDebug.hmap -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -Isrc -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources/i386 -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h -MMD -MT dependencies -MF /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.d -c /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/main.cpp -o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/main.o36"85D65F23-C5C8-4835-8995-166B1C7C5283-
+
+CCompileC build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372116621.888062
+e372116623.564826
+r1
+xCompileC
+xbuild/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.o
+x/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused when '-c' is present
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cppef70e38d0c2eb641^9198908f0c2eb641^-70"clang: warning: -lpthread: 'linker' input unused when '-c' is present1(32%IDEActivityLogContextInfoMessage2@69"Clang: warning: -lpthread: 'linker' input unused when '-c' is present-372116621#0#70#-0#--21"Clang LLVM 1.0 Notice--0#0#0#-19%DVTDocumentLocation3@77"file://localhost/Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp0000000000000000^2589"CompileC build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -msse3 -mssse3 -Wno-sign-conversion -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/ruttEtraTestDebug.hmap -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -Isrc -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources/i386 -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h -MMD -MT dependencies -MF /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.d -c /Developer/of_0071/apps/myApps/Rutt-Etra-Test/src/testApp.cpp -o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/testApp.o36"A7A4F189-3AFA-4A02-B088-79AD4B2A5AF1-
+
+CLd /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug normal i386
+s372116623.572284
+e372116628.547443
+r1
+xLd
+x/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebugdd94928f0c2eb641^d0258c940c2eb641^---0#0#0#--1758"Ld bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug normal i386    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx -filelist /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/ruttEtraTestDebug.LinkFileList -mmacosx-version-min=10.6 -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a -framework GLUT /Developer/of_0071/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug36"2F1A93D9-EE17-47E1-B960-4205C1D03494-
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework
+s372116628.737055
+e372116629.096464
+r1
+xPBXCp
+x../../../libs/glut/lib/osx/GLUT.framework
+xbin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy bin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework60cabc940c2eb641^64b218950c2eb641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework00f40476ddffdf42^454"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/ruttEtraTestDebug.app/Contents/Frameworks/GLUT.framework    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx/GLUT.framework /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Frameworks36"E1458CA1-F380-4787-AA4F-A0BE46259898-
+
+CPhaseScriptExecution "Run Script" /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+s372116628.556472
+e372116628.728001
+r1
+xPhaseScriptExecution
+xRun Script
+x/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'0f5e8f940c2eb641^f25dba940c2eb641^---0#0#0#--22510"PhaseScriptExecution "Run Script" build/ruttEtraTest.build/Debug/ruttEtraTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Kleeb2    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build    setenv BUILD_ROOT /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin    setenv CACHE_ROOT /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin    setenv CONFIGURATION_TEMP_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug    setenv CONTENTS_FOLDER_PATH ruttEtraTestDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources    setenv DERIVED_FILE_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH ruttEtraTestDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ruttEtraTest.dst    setenv DWARF_DSYM_FILE_NAME ruttEtraTestDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ruttEtraTestDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH ruttEtraTestDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME ruttEtraTestDebug    setenv EXECUTABLE_PATH ruttEtraTestDebug.app/Contents/MacOS/ruttEtraTestDebug    setenv FILE_LIST /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ruttEtraTestDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin\"  \"/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ruttEtraTestDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING NONE    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH ruttEtraTestDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH ruttEtraTestDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ruttEtraTest.dst/Users/Kleeb2/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Kleeb2    setenv INSTALL_PATH /Users/Kleeb2/Applications    setenv INSTALL_ROOT /tmp/ruttEtraTest.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ruttEtraTestDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/ruttEtraTestDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal/i386/ruttEtraTestDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH ruttEtraTestDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects    setenv OBJECT_FILE_DIR_normal /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Objects-normal    setenv OBJROOT /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread -mtune=native"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ruttEtraTestDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/PkgInfo    setenv PKGINFO_PATH ruttEtraTestDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4D502    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH ruttEtraTestDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ruttEtraTestDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME ruttEtraTestDebug    setenv PRODUCT_SETTINGS_PATH /Developer/of_0071/apps/myApps/Rutt-Etra-Test/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ruttEtraTest    setenv PROJECT_DERIVED_FILE_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/DerivedSources    setenv PROJECT_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv PROJECT_FILE_PATH /Developer/of_0071/apps/myApps/Rutt-Etra-Test/ruttEtraTest.xcodeproj    setenv PROJECT_NAME ruttEtraTest    setenv PROJECT_TEMP_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build    setenv PUBLIC_HEADERS_FOLDER_PATH ruttEtraTestDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ruttEtraTestDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SDK_PRODUCT_BUILD_VERSION 10K549    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ruttEtraTestDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ruttEtraTestDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv SRCROOT /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME ruttEtraTest    setenv TARGET_BUILD_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin    setenv TARGET_NAME ruttEtraTest    setenv TARGET_TEMP_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build    setenv TEMP_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build    setenv TEMP_FILES_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build    setenv TEMP_FILE_DIR /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build    setenv TEMP_ROOT /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ruttEtraTestDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER Kleeb2    setenv USER_APPS_DIR /Users/Kleeb2/Applications    setenv USER_LIBRARY_DIR /Users/Kleeb2/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ruttEtraTestDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER Kleeb2    setenv VERSION_INFO_FILE ruttEtraTestDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ruttEtraTestDebug  PROJECT:ruttEtraTest-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ruttEtraTestDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D502    setenv XCODE_VERSION_ACTUAL 0421    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"4BECBAEA-E06C-4F6C-B535-FF76194F2FDD-
+
+CProcessInfoPlistFile /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s372116619.165281
+e372116619.234336
+r1
+xProcessInfoPlistFile
+x/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plist18932a8b0c2eb641^47ff3b8b0c2eb641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/of_0071/apps/myApps/Rutt-Etra-Test/openFrameworks-Info.plist0000000000000000^435"ProcessInfoPlistFile bin/ruttEtraTestDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app/Contents/Info.plist36"221F3ECB-2A27-485A-B827-F3EB2CDED7D4-
+
+CProcessPCH++ /Users/Kleeb2/Library/Developer/Xcode/DerivedData/ruttEtraTest-agacpqogftlvxocshshyktxqqbqg/Index/PrecompiledHeaders/Carbon-gajjauzbxefmvcejkelegnmdwinf_ast/Carbon.h.pth /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.pth /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372116619.243551
+e372116621.880228
+r1
+xProcessPCH++
+x/var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.pth
+x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused when '-c' is present
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h35793e8b0c2eb641^0856e18d0c2eb641^-70"clang: warning: -lpthread: 'linker' input unused when '-c' is present1(32%IDEActivityLogContextInfoMessage2@69"Clang: warning: -lpthread: 'linker' input unused when '-c' is present-372116619#0#70#-0#--21"Clang LLVM 1.0 Notice--0#0#0#-19%DVTDocumentLocation3@106"file://localhost/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^2651"ProcessPCH++ /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.pth /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -msse3 -mssse3 -Wno-sign-conversion -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/ruttEtraTestDebug.hmap -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -Isrc -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources/i386 -I/Developer/of_0071/apps/myApps/Rutt-Etra-Test/build/ruttEtraTest.build/Debug/ruttEtraTest.build/DerivedSources -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin -F/Developer/of_0071/apps/myApps/Rutt-Etra-Test/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.pth -MMD -MT dependencies -MF /var/folders/ww/sn7zl8ld7d5f_w59n106bkxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-ccvbzbxobzdodcboktpypuhhztnz/Carbon.h.d36"D45C2B5C-D2AE-41A2-89A2-5785785C1DA4-
+
+CTouch /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app
+s372116629.105275
+e372116629.151876
+r1
+xTouch
+x/Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app1d021b950c2eb641^00e226950c2eb641^---0#0#0#--179"Touch bin/ruttEtraTestDebug.app    cd /Developer/of_0071/apps/myApps/Rutt-Etra-Test    /usr/bin/touch -c /Developer/of_0071/apps/myApps/Rutt-Etra-Test/bin/ruttEtraTestDebug.app36"E79E8B58-81BE-4270-9A98-C030A2FDCB11-
+
