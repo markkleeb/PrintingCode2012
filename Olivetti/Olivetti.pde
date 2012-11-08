@@ -13,7 +13,7 @@ String bowery[] = {"BO","WE","RY","B", "A","LL","R","OO","M"};
 String date[] = {"N","O","V","1","8","", "8","P","M"};
 String price[] = {"$", "1", "5", "", "", "", "", "", ""};
 
-String strarr[][] = {price, date, bowery, fuckton, rainbow, strangers};
+String strArr[][] = {price, date, bowery, fuckton, rainbow, strangers};
 
 
 void setup()
@@ -39,18 +39,20 @@ void setup()
   canvas.noStroke();
   canvas.fill(30);
   canvas.background(255);
-  ModularGrid grid = new ModularGrid(100, 154, 20, 20);
+  ModularGrid grid = new ModularGrid(330, 510, 0, 0);
 
 
-  float h= random(0, 360);
-  float s= random(20, 75);
-  float b=random(50, 100);
+  //float h= random(0, 360);
+  float h = 100;
+  //float s= random(20, 50);
+  float s= 50;
+  float b=random(80, 100);
 
   color c1 = color(h, s, b);
-  color c2 = color((h+120)%360, s, b);
-  color c3 = color((h-120)%360, s, b);
-  color c4 = color((h+60)%360, s, b);
-  color c5 = color((h-60)%360, s, b);
+  color c2 = color((h+150)%360, s, b);
+  color c3 = color((h-150)%360, s, b);
+  color c4 = color((h+30)%360, s, b);
+  color c5 = color((h-30)%360, s, b);
   color c6 = color((h+180)%360, s, b);
 
   color colors[] = {
@@ -89,7 +91,7 @@ void setup()
     
     
 
-    modules[k] = grid.getRandomModule((k+1)*4, (k+1)*4);
+    modules[k] = grid.getRandomModule((k+1)*40, (k+1)*40);
 
 
     if (modules[k] != null) {
@@ -105,20 +107,27 @@ void setup()
           int l = i + j*3;
        
           
-          String ch = strarr[k][l];
+          String ch = strArr[k][l];
           //println(ch);
           
           int col = int(random(0, 6));
+          
+          int constant = 80;
 
           canvas.fill(colors[col]);   
           canvas.noStroke();   
           canvas.ellipseMode(CORNER);
 
-          canvas.ellipse(i*rad*100, j*rad*100, rad*100, rad*100);
+          canvas.ellipse(i*rad*constant, j*rad*constant, rad*constant, rad*constant);
           canvas.fill(0);
-          canvas.textSize(40*(k+1));
+          if(k==0){
+            canvas.textSize(30*(k+2));
+          }
+          else{
+          canvas.textSize(30*(k+1));
+          }
           canvas.textAlign(CENTER, CENTER);
-          canvas.text(ch, i*rad*100+(rad*100)/2, j*rad*100+(rad*100)/2);
+          canvas.text(ch, i*rad*constant+(rad*constant)/2, j*rad*constant+(rad*constant)/2);
         }
       }
 
@@ -135,7 +144,7 @@ void setup()
 
   canvas.endDraw();
 
-  image(canvas, 0, 0, canvas.width*0.20, canvas.height*0.20);
+  image(canvas, 0, 0, canvas.width*0.17, canvas.height*0.17);
 
   canvas.save("olivetti.tiff");
 }
