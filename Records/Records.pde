@@ -20,6 +20,15 @@ RPoint[] pnts2;
 //Particles-------------------------------
 
 ArrayList<Particle> particles = new ArrayList();
+ArrayList<PVector> points = new ArrayList();
+ArrayList<Square> squares = new ArrayList();
+
+
+//Positions------------------------------
+
+PVector track1, track2, track3;
+
+boolean seek;
 
 void setup() 
 {
@@ -27,6 +36,7 @@ void setup()
   size(1280, 800, P3D);
 
   smooth();
+  seek = true;
 
   //Setup Colors--------------------------------
   colorMode(HSB, 360, 100, 100);
@@ -68,124 +78,110 @@ void setup()
   pnts2 = grp2.getPoints();
 
   //Create canvas-------------------------------------------
-  canvas = createGraphics(canvas_width, canvas_height, P2D);  
+  canvas = createGraphics(canvas_width, canvas_height, P3D);  
+
+  //canvas.beginDraw(); 
 
 
   //Particles
-  for (int i=0; i<50; i++) {
+  for (int i=0; i<2000; i++) {
 
-    Particle particle = new Particle(new PVector(random(2100, 4200), int(random(0, canvas_height))), 4.0, 0.1, colors[2]); 
+    Particle particle = new Particle(new PVector(random(2100, 4200), int(random(0, canvas_height))), 5.0, 0.7, colors[2]); 
     particles.add(particle);
   }
+
+  //Points
+
+  for (int i = 0; i < pnts1.length; i++ ) 
+  {
+    points.add(new PVector(canvas_width/2+50+pnts1[i].x, 700+pnts1[i].y));
+  }
+
+  for (int i = 0; i < pnts2.length; i++ ) 
+  {
+    points.add(new PVector(canvas_width/2+350+pnts2[i].x, 1400+pnts2[i].y));
+  }
+
+
+
+  
+
+  //Squares
+  //----------------------------------------------------
+/*
+  for (int i=0; i < 250; i++) {
+
+    Square square = new Square(new PVector(random(0, canvas_width/2-200), random(0, canvas_height)), colors[int(random(0, 3))], new PVector(random(0, 200), random(0, 200)));
+    squares.add(square);
+  }
+*/
+
+
+
+  //Liner notes positions
+
+  track1 = new PVector(int(random(0, 800)), int(random(50, canvas_height/3-200)));
+  track2 = new PVector(int(random(0, 800)), int(random(canvas_height/3, 2*canvas_height/3-200)));
+  track3 = new PVector(int(random(0, 800)), int(random(2*canvas_height/3, canvas_height-200)));
+
+
+ canvas.beginDraw();
 }
 
 
 
 void draw() {
 
-  background(150);
-  canvas.beginDraw();
+ 
 
+  background(150);
+
+ 
 
   canvas.textFont(font2, 60);
   canvas.background(color4);
 
 
+
+
   //Squares
-  //----------------------------------------------------
+  /*
+  for (int i=0; i < squares.size(); i++) {
 
-  for (int i=0; i < 250; i++) {
-
-    canvas.pushMatrix();
-
-    canvas.translate(random(0, canvas.width/2-200), random(0, canvas.height));
-    canvas.stroke(colors[int(random(0, 2))]);
-    canvas.strokeWeight(5);
-    canvas.noFill();
-    canvas.rect(0, 0, random(0, 200), random(0, 200));
-
-    canvas.popMatrix();
+    Square s = squares.get(i); 
+    s.display();
   }
-
-  //ellipses
-  //*-----------------------------------------------------
-  //  for(int i=0; i <250; i++){
-  //    canvas.ellipseMode(CORNER);
-  //   canvas.pushMatrix();
-  //   canvas.translate(random(0, canvas.width/2-200), random(0, canvas.height));
-  //   canvas.noStroke();
-  //    canvas.fill(colors[int(random(0,2))]);
-  //   canvas.strokeWeight(5);
-  //  
-  // canvas.ellipse(0,0, random(0, 200), random(0, 200));
-  //canvas.popMatrix(); 
-  //    
-  //    
-  //  }
+  */
 
 
   //Main title----------------------------------------------
-  //CLINTON
-  canvas.pushMatrix();
-  canvas.translate(canvas.width/2+50, 700);
-  canvas.fill(color3);
-  canvas.noStroke();
-  for (int i = 0; i < pnts1.length; i++ ) 
-  {
 
-    //canvas.pushMatrix();
-    //canvas.translate(pnts1[i].x, pnts1[i].y);
-    //canvas.rotate(random(-PI/6, PI/6));
-    //canvas.rect(0, 0, 25, 50);
-    //canvas.popMatrix();
 
-    for (int j=0; j < particles.size(); j++) {
-      Particle p = particles.get(j);
-      if (p.loc.x == pnts1[i].x && p.loc.y == pnts1[i].y) {
-        p.seek(new PVector(pnts1[i].x, pnts1[i].y));
-        p.run();
-      }
 
-      else {
+  for (int i=0; i < points.size(); i++) {
 
-        p.wander();
-        p.run();
-      }
+    PVector pnt = points.get(i);
+    Particle p = particles.get(i);
+    //if (p.loc.x > pnt.x-100 && p.loc.x < pnt.x+100 && p.loc.y > pnt.y-100 && p.loc.y < pnt.y+100) {
+   
+    if(seek){
+    p.arrive(pnt);
+    p.run();
     }
-  }
-  canvas.popMatrix();
 
+   else {
 
+    p.wander();
+    p.run();
 
-  //GORE  
-  canvas.pushMatrix();
-  canvas.translate(canvas.width/2+350, 1400);
-  canvas.fill(color3);
-  canvas.noStroke();
-  for (int i = 0; i < pnts2.length; i++ ) 
-  {
-
-    //    canvas.pushMatrix();
-    //    canvas.translate(pnts2[i].x, pnts2[i].y);
-    //    canvas.rotate(random(-PI/6, PI/6));
-    //    canvas.rect(0, 0, 25, 50);
-    //    canvas.popMatrix();
-    for (int j=0; j < particles.size(); j++) {
-      Particle p = particles.get(j);
-      if (p.loc.x == pnts2[i].x && p.loc.y == pnts2[i].y) {
-        p.seek(new PVector(pnts2[i].x, pnts2[i].y));
-        p.run();
-      }
-
-      else {
-
-        p.wander();
-        p.run();
-      }
     }
+  } 
+  
+  for(int i=691; i < particles.size(); i++){
+   Particle p = particles.get(i);
+  p.wander();
+ p.run(); 
   }
-  canvas.popMatrix();
-
 
 
   //Liner Notes----------------------------------------------
@@ -195,9 +191,9 @@ void draw() {
 
   //Track 1
   canvas.pushMatrix();
-  canvas.translate(int(random(0, 1000)), int(random(50, canvas.height/3-200)));
+  canvas.translate(track1.x, track1.y);
   canvas.fill(colors[2]);
-  canvas.text("TRACK 1 - I NEED A STAR", 0, 0);
+  canvas.text("SIDE A - I NEED A STAR", 0, 0);
   canvas.text("DRUMS & SYNTH - CHRIS CRAWFORD", 0, 50);
   canvas.text("GUITARS - ROLAND CURTIS", 0, 100);
   canvas.text("VOX - SIERRA FROST", 0, 150);
@@ -206,18 +202,20 @@ void draw() {
 
   //Track 2  
   canvas.pushMatrix();
-  canvas.translate(int(random(0, 1000)), int(random(canvas.height/3, 2*canvas.height/3-200)));
+  canvas.translate(track2.x, track2.y);
   canvas.fill(colors[2]);
-  canvas.text("TRACK 2 - YOU'RE SO BAD", 0, 0);
+  canvas.text("SIDE B - YOU'RE SO BAD", 0, 0);
   canvas.text("ORIGINAL SONG BY TOM PETTY", 0, 50);
   canvas.text("DRUMS & SYNTH - CHRIS CRAWFORD", 0, 100);
   canvas.text("VOX - SIERRA FROST", 0, 150);
   canvas.popMatrix();
 
 
+
+
   //Credits
   canvas.pushMatrix();
-  canvas.translate(int(random(0, 1000)), int(random(2*canvas.height/3, canvas.height-200)));
+  canvas.translate(track3.x, track3.y);
   canvas.fill(colors[2]);
   canvas.text("RECORDED AND MIXED AT", 0, 0);
   canvas.text("DEATH BY AUDIO", 0, 50);
@@ -229,22 +227,62 @@ void draw() {
   canvas.stroke(10);
   canvas.line(canvas.width/2, 0, canvas.width/2, canvas.height);
 
-
   canvas.endDraw();
+
 
   //Display image
   image(canvas, 0, 0, canvas.width*0.3, canvas.height*0.3);
+
+
 }
 
 
 void keyPressed()
 {
-  if (key == 's')
-  {  
+  switch(key) {
+
+  case 's':  
     println("Saving Image");
     canvas.save("clintongore" + year() + "_" + month()+ "_" + day() + "_" + hour() + "_" + minute() + "_" + second() + ".tiff");
     println("Saved Image");
-  }
+    break;
+
+  case 'c':
+    float h = random(0, 360);
+    float s = random(50, 100);
+    float b = random(50, 100);
+
+    color1 = color(h+60, s, b);
+    color2 = color((h-60)%360, s, b);
+    color3 = color((h)%360, s, b);
+    color4 = color((h+180)%360, s, b);
+
+    colors[0] = color1;
+    colors[1] = color2;
+    colors[2] = color3;
+    
+    for(int i=0; i< particles.size(); i++){
+      
+     Particle p = particles.get(i);
+    p.col = color3; 
+    }
+    
+    break;
+    
+   case 'p':
+   
+   seek = !seek;
+   
+   break;
+    
+  case 't':
+    
+  track1 = new PVector(int(random(0, 800)), int(random(50, canvas.height/3-200)));
+  track2 = new PVector(int(random(0, 800)), int(random(canvas.height/3, 2*canvas.height/3-200)));
+  track3 = new PVector(int(random(0, 800)), int(random(2*canvas.height/3, canvas.height-200)));
+  break;  
+
+}
 }
 
 

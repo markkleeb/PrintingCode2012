@@ -13,9 +13,9 @@ color col;
 Particle(PVector l, float ms, float mf, color c){
   
   acc = new PVector(0, 0);
-  vel = new PVector(0,0);
+  vel = new PVector(random(-10, 10), random(-10,10));
   loc = l.get();
-  r = 3.0;
+  r = 5.0;
   wandertheta = 0.0;
   maxspeed = ms;
   maxforce = mf;
@@ -108,17 +108,17 @@ render();
     //vertex(-r, r*2);
     //vertex(r, r*2);
     //endShape();
-    canvas.ellipse(0, 0, 2*r, 2*r);
+    canvas.rect(0, 0, 2*r, 2*r);
     
     canvas.popMatrix();
   }
   
   // Wraparound
   void borders() {
-    if (loc.x < -r) loc.x = canvas.width/2+r;
-    if (loc.y < -r) loc.y = canvas.height+r;
-    if (loc.x > canvas.width+r) loc.x = -r;
-    if (loc.y > canvas.height+r) loc.y = -r;
+    if (loc.x < canvas.width/2-r) loc.x=canvas.width+r;
+    if (loc.y < -r) loc.y= canvas.height+r;
+    if (loc.x > canvas.width+r) loc.x=canvas.width/2-r;
+    if (loc.y > canvas.height+r) loc.y=-r;
   }
 
 }
